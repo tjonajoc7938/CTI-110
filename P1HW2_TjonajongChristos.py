@@ -7,7 +7,7 @@
 # Tell what the program does
 # Ask for budget, destination, cost of gas, cost of hotel, and cost of food
 # Display the value of each prompt
-# Subtract the costs from the budget and display it
+# Add costs and subtract them from budget
 
 print('This program calculates and displays travel expenses\n')
 budget = int(input('Enter budget: '))
@@ -29,4 +29,4 @@ print('Fuel:', gasMoney)
 print('Accomodation:', hotelMoney)
 print('Food:', foodMoney)
 print()
-print('Remaining Balance:', budget - gasMoney - hotelMoney - foodMoney)
+print('Remaining Balance:', budget - (gasMoney + hotelMoney + foodMoney))

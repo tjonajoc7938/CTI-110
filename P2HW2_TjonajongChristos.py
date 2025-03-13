@@ -13,12 +13,12 @@
 
 grades = []
 
-module1 = grades.append(float(input('Enter grade for Module 1: ')))
-module2 = grades.append(float(input('Enter grade for Module 2: ')))
-module3 = grades.append(float(input('Enter grade for Module 3: ')))
-module4 = grades.append(float(input('Enter grade for Module 4: ')))
-module5 = grades.append(float(input('Enter grade for Module 5: ')))
-module6 = grades.append(float(input('Enter grade for Module 6: ')))
+grades.append(float(input('Enter grade for Module 1: ')))
+grades.append(float(input('Enter grade for Module 2: ')))
+grades.append(float(input('Enter grade for Module 3: ')))
+grades.append(float(input('Enter grade for Module 4: ')))
+grades.append(float(input('Enter grade for Module 5: ')))
+grades.append(float(input('Enter grade for Module 6: ')))
 
 print('------------Results------------')
 print(f'{"Lowest Grade:":<19} {min(grades)}')

@@ -21,13 +21,13 @@ grades.remove(min(grades))
 print(f'{"Modified list":<15}: {grades}')
 average = (sum(grades) / len(grades))
 print(f'{"Average":<15}: {average:.2f}')
-if average > 89:
+if average >= 90:
     print(f'{"Grade":<15}: A')
-elif average > 79:
+elif average >= 80:
     print(f'{"Grade":<15}: B')
-elif average > 69:
+elif average >= 70:
     print(f'{"Grade":<15}: C')
-elif average > 59:
+elif average >= 60:
     print(f'{"Grade":<15}: D')
 else:
     print(f'{"Grade":<15}: F')
